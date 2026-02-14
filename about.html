@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于我</title>
+    <title>关于 - 我的博客</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="page-title">关于我</h1>
-        <div class="about-content">
-            <p class="intro-text">你好！欢迎来到我的个人博客。</p>
-            <p class="intro-text">这里是我记录学习、分享技术、记录生活的地方。</p>
-            <p class="intro-text">希望能与大家交流学习，共同进步！</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">我的<span>博客</span></a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="blog.html" class="nav-link">博客</a>
+                <a href="about.html" class="nav-link active">关于</a>
+            </nav>
         </div>
-        <nav class="nav-bar">
-            <a href="index.html" class="nav-link">返回首页</a>
-        </nav>
-    </div>
+    </header>
+
+    <main class="container about-page">
+        <div class="about-content">
+            <h1 class="about-title">关于我</h1>
+            <p class="about-text">你好！欢迎来到我的博客。</p>
+            <p class="about-text">这是一个记录学习历程、分享技术心得的个人空间。我主要关注前端开发领域，对 JavaScript、CSS 和现代 Web 技术充满热情。</p>
+            <p class="about-text">我相信，通过持续学习和分享，我们可以一起成长进步。如果你对技术也有同样的热情，欢迎常来逛逛，有任何想法都欢迎留言交流。</p>
+            <p class="about-text">愿你在这里有所收获！</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 我的博客. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
